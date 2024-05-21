@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMULADOR DE FINANCIAMENTO</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>
+            SIMULADOR DE FINANCIAMENTO
+        </h1>
+    </header>
+    <section>
+        <div id="div1"> 
+           <p>Nome: <input type="text" id="nome" ></p> 
+           <p>Valor do bem: <input type="text" id="vtotal"></p>
+           <p>Valor da entrada: <input type="text" id="ventrada"></p>
+        </p>
+
+        <p> Objeto do financiamento:
+            <input type="radio" name="fnc" id="car" checked> Veículo
+            <input type="radio" name="fnc" id="imv" > Imóvel
+        </p>
+        <p>
+            Quantidade de parcelas:
+            <input type="radio" name="parcela" id="parc0" checked>24 parcelas
+            <input type="radio" name="parcela" id="parc1" >36 parcelas
+            <input type="radio" name="parcela" id="parc2" >48 parcelas
+        </p>
+        <button onclick = "clique()"> SIMULAR FINANCIAMENTO</button>     
+        </div>
+
+        <div id="div2">
+            <p>Preencha os dados acima para ver o resultado</p>
+        </div>
+        
+       </section>
+
+
+    <footer>
+        <p>Desenvolvimento WEB 2</p>
+    </footer>
+    
+</body>
+</html>
